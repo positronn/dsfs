@@ -56,6 +56,7 @@ def de_mean(xs: List[float]) -> List[float]:
     x_bar = mean(xs)
     return [x - x_bar for x in xs]
 
+
 def variance(xs: List[float]) -> float:
     """Almost the average squared deviation from the mean"""
     assert len(xs) >= 2, "variance requires at least two elements"
