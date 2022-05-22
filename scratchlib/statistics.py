@@ -1,10 +1,11 @@
 
 import math
-from collections import Counter
 import matplotlib.pyplot as plt
+from typing import List
+from collections import Counter
 from scratchlib.linalg import dot
 from scratchlib.linalg import sum_of_squares
-import math
+
 
 
 
